@@ -1,0 +1,47 @@
+.foritemslayout{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border-width:1px;
+    border-style:solid;
+    border-radius:10px;
+    padding:30px;
+    position:relative;
+}
+.layoutdiv{
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-bottom:20px;
+gap:15px;
+}
+.formcss{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:200px;
+}
+.createaccdiv{
+    position:absolute;
+    background-color:red;
+    color:white;
+    top:-15px;
+    padding:7px;
+    border-radius:5px;
+    font-weight:bold;
+}
+.submitbtn{
+    background-color:red;
+    padding:10px;
+    border-radius:10px;
+    border:none;
+    color:white;
+    font-weight:bold;
+    transition: background-color 0.15s;
+}
+.submitbtn:hover{
+    background-color: rgb(150, 6, 6);
+}
+.submitbtn:active{
+    background-color: rgb(124, 5, 5);
+}

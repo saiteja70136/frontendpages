@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta property="og:title" content="Create Your Account !">
+<meta property="og:description" content="Sign up now to access exclusive features and stay updated. It's quick and easy!">
+<meta property="og:image" content="./download.png">
+<meta property="og:url" content="https://yourwebsite.com/create-account">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="./download.png">
+<title>Create Account Form</title>
+<link rel="stylesheet" href="cssfile.css">
+</head>
+<body style="font-family: arial;">
+   <form class="formcss" >
+      <div class="foritemslayout">
+          <div class="createaccdiv">Create Account</div>
+	      <div class="layoutdiv">
+	        <div><label>Full Name:</label></div>
+	        <div><input type="text" required minlength="5" maxlength="20"></div>
+	      </div>
+	      <div class="layoutdiv">
+	        <div><label>User Name:</label></div>
+	        <div><input type="text" required pattern="[a-z]+@[0-9]+" placeholder="example@123"></div>
+	      </div>
+	      <div class="layoutdiv">
+	        <div><label>Email:</label></div>
+	        <div><input class="emailattr" type="email" required maxlength="30" pattern="[a-z]{6,15}[0-9]*@gmail.com" placeholder="abc@gmail.com"></div>
+	      </div>
+	      <div class="layoutdiv">
+	        <div><label>Create Password:</label></div>
+	        <div><input class="createpass" type="password" required minlength="8"  maxlength="15" pattern="[[a-z]+[A-Z]+[0-9]+[!@#$%^&*]+]+" placeholder="EXAmple123@$"></div>
+	      </div>
+	      <div class="layoutdiv">
+	        <div><label>Confirm Password:</label></div>
+	        <div><input class="confirmpass" type="password" required minlength="8" maxlength="15" pattern="[[a-z]+[A-Z]+[0-9]+[!@#$%^&*]+]+" placeholder="EXAmple123@$"></div>
+	      </div>
+	      <div class="layoutdiv">
+	        <div><label>Phone:</label></div>
+	        <div><input class="telephono" type="tel" required maxlength="10" pattern="[0-9]+" placeholder="90000xxxxx"></div>
+	      </div>
+	      <input class="submitbtn" type="submit"> 
+      </div>
+   </form>
+</body>
+<script src="validate.js"></script>
+</html>
